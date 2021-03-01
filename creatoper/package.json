@@ -1,0 +1,14 @@
+{
+  "name": "creatoper",
+  "version": "1.0.2",
+  "description": "Front-end Web Framework",
+  "main": "creatoper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web"
+  ],
+  "author": "Bui Quang Bao",
+  "license": "MIT"
+}

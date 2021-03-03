@@ -118,7 +118,7 @@ a {
     height: calc(80vh + 4vh);
     margin: calc(10vh - 2vh) 0 !important;
     border: solid 1px var(--border-color);
-    animation: border-anim 10s ease infinite;
+    animation: border-anim 8s ease infinite;
   }
   @keyframes border-anim {
     0% {
@@ -127,11 +127,17 @@ a {
     48% {
       opacity: 0.6;
     }
+    92% {
+      opacity: 1.0;
+    }
+    94% {
+      opacity: 0.25;
+    }
     96% {
       opacity: 1.0;
     }
     98% {
-      opacity: 0.4;
+      opacity: 0.25;
     }
     100% {
       opacity: 1.0;

@@ -23,7 +23,7 @@ const setShadow = () => {
         flag = 0;
     }
     var i;
-    for (i = 0; i < 10; i++) {
+    for (i = 0; i < 3; i++) {
         document.getElementsByClassName("glitch-text")[i].style.textShadow = shadow;
     }
 };
